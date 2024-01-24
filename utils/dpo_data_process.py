@@ -11,6 +11,7 @@ from rich import progress
 import pyarrow.parquet as pq
 
 from model.infer import ChatBot
+
 from logger import Logger
 from config import PROJECT_ROOT, InferConfig
 
